@@ -1,66 +1,104 @@
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=900&color=00FF41&center=true&vCenter=true&width=640&lines=%3E+initializing+payload...;%3E+access+granted.+welcome%2C+operator.;%3E+Application+Security+Engineer;%3E+Web+%7C+API+%7C+Mobile+VAPT;%3E+break+it+%E2%86%92+prove+it+%E2%86%92+fix+it" alt="typing" />
+</p>
+
+```diff
++  █████╗  █████╗ ██████╗ ██╗  ██╗ █████╗ ███████╗
++ ██╔══██╗██╔══██╗██╔══██╗██║  ██║██╔══██╗██╔════╝
++ ███████║███████║██████╔╝███████║███████║███████╗
++ ██╔══██║██╔══██║██╔══██╗██╔══██║██╔══██║╚════██║
++ ██║  ██║██║  ██║██████╔╝██║  ██║██║  ██║███████║
++ ╚═╝  ╚═╝╚═╝  ╚═╝╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝
+```
+
 ```console
-┌──(aabhas㉿appsec)-[~]
+┌──(aabhas㉿kali)-[~]
 └─$ whoami
-Aabhas Pandey — Application Security Engineer @ Forensic Cyber Tech
-"Break it before they do. Prove it with a PoC. Ship the fix, not the fear."
+aabhas pandey :: application security engineer @ forensic cyber tech
+"assume nothing is safe until verified. prove it with a PoC. ship the fix, not the fear."
 ```
 
-### `> focus --threat-model`
+### `$ ./threat_model --self`
 
-- **Break** — Black/grey-box VAPT of web apps, REST APIs and Android/iOS apps for BFSI, fintech & SaaS (OWASP Top 10 · API Top 10 · MASVS)
-- **Hunt** — Broken access control, auth bypass, business-logic flaws, insecure mobile data storage & weak crypto
-- **Build** — Security automation: Android SAST/DAST pipeline, multi-cloud posture scanning, forensics tooling
-- **Defend** — AWS Zero Trust (NIST CSF), CloudTrail/Config/CloudWatch monitoring, detection engineering & threat-hunting playbooks
+```diff
+- [!] broken access control · auth bypass · business-logic abuse
+- [!] insecure mobile storage · weak crypto · leaky third-party SDKs
+- [!] cloud misconfig · overprivileged IAM · lateral movement
++ [✓] break  → black/grey-box VAPT: web · REST API · android/ios  (BFSI · fintech · SaaS)
++ [✓] hunt   → OWASP Top 10 · API Top 10 · MASVS, manual exploitation over scanner noise
++ [✓] build  → security automation: android SAST/DAST pipeline · multi-cloud CSPM
++ [✓] defend → AWS zero trust (NIST CSF) · detection engineering · threat-hunting playbooks
+```
 
-### `> cat arsenal.txt`
+### `$ cat ~/.arsenal`
 
-**Languages**
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+<p>
+<img src="https://img.shields.io/badge/Burp_Suite-000?style=for-the-badge&logo=burpsuite&logoColor=00FF41" />
+<img src="https://img.shields.io/badge/Frida-000?style=for-the-badge&logoColor=00FF41" />
+<img src="https://img.shields.io/badge/Jadx-000?style=for-the-badge" />
+<img src="https://img.shields.io/badge/MobSF-000?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Metasploit-000?style=for-the-badge&logo=metasploit&logoColor=00FF41" />
+<img src="https://img.shields.io/badge/Nmap-000?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Kali_Linux-000?style=for-the-badge&logo=kalilinux&logoColor=00FF41" />
+<img src="https://img.shields.io/badge/Postman-000?style=for-the-badge&logo=postman&logoColor=00FF41" />
+<img src="https://img.shields.io/badge/ADB-000?style=for-the-badge&logo=android&logoColor=00FF41" />
+</p>
+<p>
+<img src="https://img.shields.io/badge/Nessus-000?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Qualys-000?style=for-the-badge&logo=qualys&logoColor=00FF41" />
+<img src="https://img.shields.io/badge/Checkmarx-000?style=for-the-badge" />
+<img src="https://img.shields.io/badge/OWASP_ZAP-000?style=for-the-badge&logo=owasp&logoColor=00FF41" />
+</p>
+<p>
+<img src="https://img.shields.io/badge/AWS-000?style=for-the-badge&logo=amazonwebservices&logoColor=00FF41" />
+<img src="https://img.shields.io/badge/Azure-000?style=for-the-badge&logo=microsoftazure&logoColor=00FF41" />
+<img src="https://img.shields.io/badge/GCP-000?style=for-the-badge&logo=googlecloud&logoColor=00FF41" />
+<img src="https://img.shields.io/badge/OCI-000?style=for-the-badge&logo=oracle&logoColor=00FF41" />
+<img src="https://img.shields.io/badge/Docker-000?style=for-the-badge&logo=docker&logoColor=00FF41" />
+</p>
+<p>
+<img src="https://img.shields.io/badge/Python-000?style=for-the-badge&logo=python&logoColor=00FF41" />
+<img src="https://img.shields.io/badge/TypeScript-000?style=for-the-badge&logo=typescript&logoColor=00FF41" />
+<img src="https://img.shields.io/badge/Bash-000?style=for-the-badge&logo=gnubash&logoColor=00FF41" />
+<img src="https://img.shields.io/badge/FastAPI-000?style=for-the-badge&logo=fastapi&logoColor=00FF41" />
+<img src="https://img.shields.io/badge/PostgreSQL-000?style=for-the-badge&logo=postgresql&logoColor=00FF41" />
+</p>
 
-**Cloud / Infra**
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
-![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
-![GCP](https://img.shields.io/badge/GCP-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
-![OCI](https://img.shields.io/badge/OCI-F80000?style=flat-square&logo=oracle&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+### `$ ls -la ~/ops`
 
-**Offensive**
-![Burp Suite](https://img.shields.io/badge/Burp_Suite-FF6633?style=flat-square&logo=burpsuite&logoColor=white)
-![Frida](https://img.shields.io/badge/Frida-EF6456?style=flat-square)
-![Jadx](https://img.shields.io/badge/Jadx-333333?style=flat-square)
-![MobSF](https://img.shields.io/badge/MobSF-0A66C2?style=flat-square)
-![Metasploit](https://img.shields.io/badge/Metasploit-2596CD?style=flat-square&logo=metasploit&logoColor=white)
-![Nmap](https://img.shields.io/badge/Nmap-4682B4?style=flat-square)
-![Kali](https://img.shields.io/badge/Kali_Linux-557C94?style=flat-square&logo=kalilinux&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
-
-**Defensive / Scanning**
-![Nessus](https://img.shields.io/badge/Nessus-00C176?style=flat-square)
-![Qualys](https://img.shields.io/badge/Qualys-ED2E26?style=flat-square&logo=qualys&logoColor=white)
-![Checkmarx](https://img.shields.io/badge/Checkmarx-54B848?style=flat-square)
-![OWASP ZAP](https://img.shields.io/badge/OWASP_ZAP-00549E?style=flat-square&logo=owasp&logoColor=white)
-![CloudTrail](https://img.shields.io/badge/CloudTrail_·_Config_·_CloudWatch-FF9900?style=flat-square&logo=amazonwebservices&logoColor=white)
-
-### `> ls ~/research`
-
-| Project | Security Problem Solved | Stack |
+| Payload | Target / Problem | Stack |
 |---|---|---|
-| **Quantra** — Multi-cloud CSPM | Continuous misconfiguration & posture scanning across AWS, Azure and GCP from one dashboard, with scheduled scans and historical findings | Python · FastAPI · Celery · Redis · PostgreSQL · boto3 · Docker |
-| **Android AppSec Automation Framework** | Standardizes APK & third-party SDK testing: automated static + dynamic analysis, findings mapped to OWASP Mobile Top 10 / MASVS with fix guidance | Python · Jadx · MobSF · Frida · ADB |
-| [**ForenSys**](https://github.com/aabhas1221/forensys) | Automated OS & multimedia artefact analysis to speed up digital-forensics triage | React · FastAPI · Shell |
+| `quantra/` | Multi-cloud CSPM: continuous misconfig & posture scanning across AWS · Azure · GCP with scheduled scans and finding history | Python · FastAPI · Celery · Redis · PostgreSQL · boto3 |
+| `android-appsec-framework/` | Automated APK + third-party SDK testing (static + dynamic), every finding mapped to OWASP Mobile Top 10 / MASVS | Python · Jadx · MobSF · Frida · ADB |
+| [`forensys/`](https://github.com/aabhas1221/forensys) | Automated OS & multimedia artefact analysis for faster forensics triage | React · FastAPI · Shell |
 
-### `> cat contact`
+### `$ history | grep -i ops`
 
-```text
-Certs   : OCI Multicloud Architect Pro · OCI DevOps Pro · OCI Architect Associate
-          Windows Forensics (Belkasoft) · Microsoft System Engineer
-Edu     : M.Sc. Cyber Security & Digital Forensics — Rashtriya Raksha University
+```console
+ 2026  forensic-cyber-tech   --role appsec-engineer   --scope web,api,mobile --clients bfsi,fintech,saas
+ 2025  bharat-ncx            --role white-team        --platform cybexer --cyber-range
+ 2025  cii-secex             --role threat-hunt-trainer --org NCIIPC --ioc --soc-triage
+ 2024  lendingkart           --role cloud-security    --build aws-zero-trust --nist-csf
 ```
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-aabhas--pandey-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aabhas-pandey/)
-[![GitHub](https://img.shields.io/badge/GitHub-aabhas1221-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/aabhas1221)
+### `$ cat /etc/creds`
+
+```diff
++ [cert] OCI Multicloud Architect Professional
++ [cert] OCI Certified DevOps Professional
++ [cert] OCI Architect Associate
++ [cert] Windows Forensics — Belkasoft
++ [cert] Microsoft System Engineer
++ [edu ] M.Sc. Cyber Security & Digital Forensics — Rashtriya Raksha University
+```
+
+### `$ nc -lvnp 443`
+
+<p>
+<a href="https://www.linkedin.com/in/aabhas-pandey/"><img src="https://img.shields.io/badge/LinkedIn-000?style=for-the-badge&logo=linkedin&logoColor=00FF41" /></a>
+<a href="https://github.com/aabhas1221"><img src="https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github&logoColor=00FF41" /></a>
+</p>
+
+```diff
++ listening on [any] 443 ...   ping me for VAPT, mobile appsec or cloud posture work.
+```
