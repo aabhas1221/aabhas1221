@@ -68,8 +68,10 @@ aabhas pandey :: application security engineer @ forensic cyber tech
 
 | Payload | Target / Problem | Stack |
 |---|---|---|
-| `quantra/` | Multi-cloud CSPM: continuous misconfig & posture scanning across AWS · Azure · GCP with scheduled scans and finding history | Python · FastAPI · Celery · Redis · PostgreSQL · boto3 |
-| `android-appsec-framework/` | Automated APK + third-party SDK testing (static + dynamic), every finding mapped to OWASP Mobile Top 10 / MASVS | Python · Jadx · MobSF · Frida · ADB |
+| [`skill-sentry/`](https://github.com/aabhas1221/skill-sentry) | AI-agent supply chain: scans skills, MCP configs & agent rule files for prompt injection, Unicode smuggling, exfil, secrets. SARIF for CI | Python · SARIF · OWASP LLM / Agentic Top 10 |
+| [`apk-sentinel/`](https://github.com/aabhas1221/apk-sentinel) | Android APK static audit with a self-built binary AXML/dex parser: 43 checks mapped to MASVS v2 + Mobile Top 10, CVSS-scored, attack-surface map with `adb` PoC commands | Python · AXML · DEX · MASVS |
+| [`iam-privesc-lens/`](https://github.com/aabhas1221/iam-privesc-lens) | Offline AWS IAM analyzer: finds multi-hop privilege-escalation chains (26 techniques), explains every hop, renders the attack graph in Mermaid | Python · AWS IAM · graph search |
+| `quantra/` | Multi-cloud CSPM: continuous misconfig & posture scanning across AWS · Azure · GCP | FastAPI · Celery · Redis · PostgreSQL |
 | [`forensys/`](https://github.com/aabhas1221/forensys) | Automated OS & multimedia artefact analysis for faster forensics triage | React · FastAPI · Shell |
 
 ### `$ history | grep -i ops`
